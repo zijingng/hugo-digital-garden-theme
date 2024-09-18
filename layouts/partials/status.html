@@ -1,10 +1,10 @@
 {{ with .Params.status }}
     {{ if eq "seeding" . }}
-    <span class="status">Seeding 🌱</span>
+    <span class="status" title="微小的想法">💧 水滴</span>
     {{ else if eq "growing" . }}
-    <span class="status">Growing 🌿</span>
+    <span class="status" title="发展中的想法">⛲ 清泉</span>
     {{ else if eq "evergreen" . }}
-    <span class="status">Evergreen 🌳</span>
+    <span class="status" title="思想的浪潮">🌊 浪潮</span>
     {{ else }}
     {{ end }}
 {{ end }}

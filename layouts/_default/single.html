@@ -24,9 +24,9 @@
             <p class="card-date m-0">
                 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
                 {{ with .Date }}
-                    Created {{ .Format $dateFormat }} - 
+                    创建于 {{ .Format $dateFormat }} - 
                 {{ end }}
-                Last updated: {{ .Lastmod.Format $dateFormat }}
+                更新于 {{ .Lastmod.Format $dateFormat }}
             </p>
             <hr class="dropdown-divider">
             <div class="row justify-content-between">

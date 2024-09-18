@@ -28,7 +28,7 @@
       		</div>
 			{{ with .Site.GetPage "section" "garden" }}
 			<div class="d-flex flex-row-reverse">
-        		<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all articles</a>
+        		<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">查看所有文章</a>
       		</div>
       		{{ end }}
 		</div>
@@ -50,7 +50,7 @@
     		</div>
 			{{ with .Site.GetPage "section" "projects" }}
 			<div class="d-flex flex-row-reverse">
-				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all projects</a>
+				<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">查看所有项目</a>
 			</div>    
 			{{ end }}
   		</div>
@@ -66,7 +66,7 @@
 				</div>
 				{{ if .Summary }} <p class="subheading">{{ .Summary }}</p> {{ end }}
 				<div class="d-flex">
-					<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">See all books</a>
+					<a href="{{ .RelPermalink }}" role="button" class="btn btn-sm see-all">查看所有书籍</a>
 				</div>
 				{{ end }}
 			</div>
